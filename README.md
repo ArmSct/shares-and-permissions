@@ -50,6 +50,6 @@ On domain controller open the ACCOUNTANTS Properties on Active Directory Users a
 
 ![mstsc_kUpuDPoUAA](https://github.com/user-attachments/assets/d761333f-e47c-4bbf-b447-7926dec9a4fd)
 
-Then as the client open the accounting folder and observe how they now have read and write permissions.
+Then, as the client, open the accounting folder and observe how the user now has read and write permissions.
 
 ![mstsc_t77xA3pEMa](https://github.com/user-attachments/assets/1febc16b-135b-4b08-8ada-5f9cefcfd740)
