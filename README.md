@@ -27,3 +27,26 @@ Domain Users have read-only access to the read-access folder and read/write perm
 
 Confirm that permissions for folders are tied to their respective Security Group. Navigate to the shared folders and test each folder to see which ones can or cannot be opened or modified.
 
+![mstsc_DWcvUDjSUO](https://github.com/user-attachments/assets/1b95621e-5a77-4b1f-8b65-3dbb7f2864d4)
+
+![mstsc_Yp6DLMw0a1](https://github.com/user-attachments/assets/83db58fe-3bf6-4e00-abec-ce15d2952736)
+
+![mstsc_Q8gWCsiDm2](https://github.com/user-attachments/assets/df605a47-aac9-48b5-a5e0-c5b4d0b36386)
+
+### Creating Group-Based Access
+
+On the domain controller open the Active Directory Users and Computers panel. Create a new Group called ACCOUNTANTS. Then assign Read/Write permissions to the ACCOUNTANTS group.
+
+![mstsc_DjmDPCajlu](https://github.com/user-attachments/assets/e6243e4e-2144-49a8-9860-ec91136c74f4)
+
+Observe how the user cannot access the accounting folder because they are not part of the ACCOUNTANTS Security Group.
+
+![mstsc_cMWXBdj2Ka](https://github.com/user-attachments/assets/911ef3e0-8d20-4f05-89ee-2d27c8d937cc)
+
+On domain controller open the ACCOUNTANTS Properties on Active Directory Users and Computers. Add the user to the ACCOUNTANTS group. 
+
+![mstsc_kUpuDPoUAA](https://github.com/user-attachments/assets/d761333f-e47c-4bbf-b447-7926dec9a4fd)
+
+Then as the client open the accounting folder and observe how they now have read and write permissions.
+
+![mstsc_t77xA3pEMa](https://github.com/user-attachments/assets/1febc16b-135b-4b08-8ada-5f9cefcfd740)
