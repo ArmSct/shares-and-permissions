@@ -3,7 +3,7 @@
 
 # Network File Sharing and Permissions 
 
-This lab demonstrates how to create network file shares on a domain controller and manage access through group-based permissions in Active Directory. You will test file access from a standard user account and observe how group membership affects share access. A domain controller (DC-1) and client (Client-1) virtual machine are pre-configured for this lab.
+This lab demonstrates how to create network file shares on a domain controller and manage access through group-based permissions in Active Directory. You will test file access from a standard user account and observe how group membership affects share access. A domain controller (DC-1) and client (Client-1) virtual machine are pre-configured for this lab. 
 
 ## Technologies Utilized
 - Microsoft Azure
