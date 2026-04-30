@@ -10,7 +10,7 @@ This lab demonstrates how to create network file shares on a domain controller a
 - Active Directory Domain Services (AD DS)
 - File and Storage Services
 - Shared Folder Permissions
-- Security Groups
+- Security Groups 
 
 ## Actions and Observations
 
